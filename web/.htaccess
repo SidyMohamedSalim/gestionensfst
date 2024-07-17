@@ -1,0 +1,13 @@
+Options -Indexes
+RewriteEngine On
+#RewriteBase /
+
+#AuthType Digest
+#Require valid-user
+#enables you to access PHP files with HTML extension
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^$ index.php [L]
+RewriteRule ^(.*)\.html$ $1.php [NC]
+#RewriteRule ^module/([0-9]+)$ module.php?mod=$1 [L]
+

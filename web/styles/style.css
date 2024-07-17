@@ -1,0 +1,205 @@
+#login{ 
+	margin-left: 8px;
+    padding: 26px 24px 46px;
+    font-weight: normal;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    border: 1px solid rgb(229, 229, 229);
+    box-shadow: 0px 4px 10px -1px rgba(200, 200, 200, 0.7);
+	position:relative;
+	width:400px;
+}
+#login *{
+	text-align:center;
+}
+
+
+body{
+  min-width:480px;
+}
+
+/*#save-btn-prof + .popover {
+	background-color:#F2DEDE;
+	color:#B94A48;
+	border-color:#953B39;
+}*/
+.btn + .popover {
+	background-color:#F2DEDE;
+	color:#B94A48;
+	border-color:#953B39;
+}
+.medium-modal {
+  position:fixed;
+    width: 750px;
+    margin-left:-375px;
+    margin-top: -239px;
+    top: 50%;
+
+  /*  width: 50%;
+    
+ /*   overflow-y: auto;
+    max-height: 80%; */
+}
+.full-screen {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+.full-screen .modal-footer{
+    position:absolute; 
+    bottom:0;
+    overflow:hidden;
+    width:100%;
+    
+    
+}
+.full-screen .modal-footer *{
+    margin-right:2%;
+}
+.modal form{
+margin:0px;
+}
+.full-screen .modal-body{
+
+    max-height: 80%;
+    overflow: auto;
+}
+.btn-icon{
+    line-height: 10px;
+    padding: 0px 0px;
+    font-size: 10.5px;
+    border-radius: 10px;
+    margin: 0px 1px;
+    margin-bottom: 2px;
+}
+.full-screen .small-span{
+    display:inline-block; text-overflow:ellipsis; max-width:85%;white-space: nowrap;overflow: hidden;
+}
+.medium-modal .small-span{
+    display:inline-block; text-overflow:ellipsis; max-width: 120px;white-space: nowrap;overflow: hidden;
+}
+.row-fluid [class*="small-span"]{
+    min-height: 10px;
+}
+.bs-example {
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    position: relative;
+
+}
+.table th{
+    text-align: center;
+}
+.table td{
+    vertical-align: inherit;
+}
+hr{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 2px solid;
+    border-color: rgb(10, 10, 10) -moz-use-text-color rgb(255, 255, 255);
+}
+.no-margin{
+    margin: 0px;
+}
+.no-padding3{
+    padding: 0px;
+    margin: 0px;
+}
+
+.no-padding{
+    padding: 0px;
+    margin: 0px;
+}
+.no-padding1{
+    padding: 0px !important;
+    margin: 0px ;
+}
+.box{
+    border:solid 2px rgb(10, 10, 10);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box1{
+    border:solid 2px rgb(153, 65, 85);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box + hr{
+    margin: 0px;
+    /* border-color: rgb(238, 238, 238) -moz-use-text-color rgb(255, 255, 255); */
+    border: 1px solid rgb(110, 110, 101);
+}
+.box1  hr{
+    margin: 0px;
+    /* border-color: rgb(238, 238, 238) -moz-use-text-color rgb(255, 255, 255); */
+    border: 1px solid rgb(153, 65, 85) !important;
+}
+.table td hr{
+    margin: 0px;
+   /* border-color: rgb(238, 238, 238) -moz-use-text-color rgb(255, 255, 255); */
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.table .no-padding3{
+    padding: 0px;
+    margin: 0px;
+}
+.no-padding3  div{
+    padding: 3px 10px;
+
+}
+.no-padding  div{
+    padding: 3px 10px;
+    margin: 10px 10px;
+}
+.no-padding1  .well{
+    padding: 3px 10px !important;
+    margin: 10px 10px !important;
+}
+.no-padding1  div{
+
+    margin-top: 0px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 0px !important;
+}
+.no-padding1 table{
+    margin-bottom: 10px !important;
+}
+.no-padding1 .well1 {
+
+    margin-bottom: 0px !important;
+
+}
+
+footer{
+    background-color: rgb(245, 245, 245);
+    overflow: auto;
+
+    bottom:0;
+    width:100%;
+}
+#footer{
+    margin: 10px 20px;
+}
+
+.nav-tabs.nav-stacked > li > a{
+    overflow: hidden;
+    white-space: nowrap;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+.visible-tablet{
+    display: inline !important;
+}
+}
